@@ -268,9 +268,9 @@ What the fields mean:
 #### Prerequisites
 
 - Cursor v0.48.0+ (Streamable HTTP support)
-- [GitHub Personal Access Token](https://github.com/settings/tokens) with minimum scopes needed (`repo`, and `read:org` if required)
+- [GitHub Personal Access Token (classic)](https://github.com/settings/tokens) with minimum scopes needed (`repo`, and `read:org` if required)
 
-Set the token in your environment (do not commit it in `mcp.json`):
+Set the token in your environment via command line. This is for Mac/Linux:
 
 ```bash
 export GITHUB_PERSONAL_ACCESS_TOKEN=ghp_...
